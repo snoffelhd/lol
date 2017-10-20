@@ -9,5 +9,3 @@ var botToken = "MzcwMjAyNTM0NzU0NjQ4MDY0.DMvk0g.dfMFVKZ4R7MZu6jGNZS6Boe8mEY";
 client.run(serverName, textChannelName, voiceChannelName, aliasesFile, botToken);
 client.setYoutubeKey("AIzaSyD_oAhXdRMEZSu6-U0CwAK0NiygxBzOubk");
 
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
